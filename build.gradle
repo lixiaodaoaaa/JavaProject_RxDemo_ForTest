@@ -1,0 +1,31 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.reactivex:rxjava:1.0.12'
+//    compile 'io.reactivex:rxjava:x.y.z'
+}
+
+task run(type:JavaExec) {
+   main = 'net.danlew.sample.Sample'
+   classpath = sourceSets.main.runtimeClasspath
+}
+
+task  myTest<<{
+
+    println("shabi")
+}
+
+
+4.times { counter ->
+    task "task$counter" << {
+        println "I'm task number $counter"
+    }
+}
