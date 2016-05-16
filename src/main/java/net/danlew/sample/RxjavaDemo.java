@@ -59,7 +59,6 @@ public class RxjavaDemo {
 //        Observable.just("Hell,simple observable", "shabi", "001").subscribe(onNextAction);
 
         new RxjavaDemo().otherTestMethod();
-
     }
 
 

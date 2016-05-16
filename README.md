@@ -1,6 +1,3 @@
-# rxjava-multiple-sources-sample
-Sample code demonstrating loading multiple data sources via RxJava
+#意思是在JavaProject中做测试Rxjava demo实例
 
-If you'd like to execute the code, just run it:
-
-`$ ./gradlew run`
+##需要更改Java_8

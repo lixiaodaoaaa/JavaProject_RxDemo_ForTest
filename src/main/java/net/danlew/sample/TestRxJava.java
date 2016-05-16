@@ -3,9 +3,15 @@ package net.danlew.sample;
 import java.util.ArrayList;
 import java.util.List;
 
-import daoge.rxjava.bean.Course;
-import daoge.rxjava.bean.MyObservable;
-import daoge.rxjava.bean.Student;
+import bean.Course;
+import bean.MyObservable;
+import bean.Student;
+import rx.Observable;
+import rx.Subscriber;
+import rx.functions.Action0;
+import rx.functions.Action1;
+import rx.functions.Func1;
+import rx.schedulers.Schedulers;
 
 
 /**
@@ -17,7 +23,7 @@ public class TestRxJava {
     }
 
     public void testJustMethod(){
-        MyObservable  myObservable = new MyObservable();
+        MyObservable myObservable = new MyObservable();
         Observable observable  = myObservable.getObservable();
         observable.just("daoge", "daoge02", "daoge03", "daoge04", "daoge05", "daoge06");
     }
