@@ -31,7 +31,7 @@ public class Sample {
             Thread.sleep(millis);
         }
         catch (InterruptedException e) {
-            // Ignore
+            //
         }
     }
 
