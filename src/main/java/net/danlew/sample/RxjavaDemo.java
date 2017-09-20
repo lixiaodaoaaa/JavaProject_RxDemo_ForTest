@@ -51,7 +51,7 @@ public class RxjavaDemo {
 //            public void onError(Throwable e) {
 //            }
 //            @Override
-//            public void onNext(String s) {
+//            public vragradoid onNext(String s) {
 //                System.out.println(s);
 //            }
 //        });
