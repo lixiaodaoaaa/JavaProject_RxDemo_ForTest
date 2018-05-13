@@ -17,6 +17,8 @@ import rx.functions.Func1;
 public class RxjavaDemo {
 
     public static void main(String[] args) {
+        
+        System.out.println("hello");
 //          Observable.create(new Observable.OnSubscribe<String>() {
 //            @Override
 //            public void call(Subscriber<? super String> subscriber) {
