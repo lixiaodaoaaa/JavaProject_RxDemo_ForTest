@@ -12,3 +12,9 @@ fork from [rxjava-multiple-sources-sample](https://github.com/dlew/rxjava-multip
 
  *   ./gradlew run
  * 若您配置了 gradle 环境变量 请直接在Terminal中运行 gradle run
+
+
+## 注意事项
+
+本项目运行，必须用命令性编译，然后才能运行。就是必须用gradle run 或者 ./gradle run执行
+否则可能会报错。
