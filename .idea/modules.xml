@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multiple-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/multiple-sources.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multiple-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/multiple-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RxDemoStudy.iml" filepath="$PROJECT_DIR$/.idea/modules/RxDemoStudy.iml" />
     </modules>
   </component>
 </project>
