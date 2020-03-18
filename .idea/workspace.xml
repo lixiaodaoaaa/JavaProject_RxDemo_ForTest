@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd4b9516-7507-4d69-958c-89e49dd12674" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/daolion/study/utils/FormatUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daolion/study/FromStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daolion/study/FromStudy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -27,19 +28,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bean/MyObservable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/rxjava2/JustStudy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="310">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/FromStudy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/utils/FormatUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+            <state relative-caret-position="245">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +81,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/daolion/study/FromStudy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daolion/study/JustDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daolion/study/Empty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daolion/study/PublishSubject.java" />
@@ -79,6 +94,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/daolion/study/rxjava2/JustStudy.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daolion/study/FromStudy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daolion/study/utils/FormatUtils.java" />
       </list>
     </option>
   </component>
@@ -136,6 +153,23 @@
             </path>
             <path>
               <item name="RxDemoStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RxDemoStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RxDemoStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RxDemoStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RxDemoStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -165,6 +199,11 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.daolion.study.utils" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -177,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JustStudy">
+  <component name="RunManager" selected="Application.FromStudy">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -222,13 +261,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JustStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daolion.study.rxjava2.JustStudy" />
+    <configuration name="FromStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daolion.study.FromStudy" />
       <module name="RxDemoStudy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.daolion.study.rxjava2.*" />
+          <option name="PATTERN" value="com.daolion.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,13 +275,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Publish2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daolion.study.subject.Publish2" />
+    <configuration name="JustStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daolion.study.rxjava2.JustStudy" />
       <module name="RxDemoStudy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.daolion.study.subject.*" />
+          <option name="PATTERN" value="com.daolion.study.rxjava2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,19 +337,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Publish2" />
       <item itemvalue="Application.Behaviou" />
       <item itemvalue="Application.Replay" />
       <item itemvalue="Application.SimpleStudy" />
       <item itemvalue="Application.JustStudy" />
+      <item itemvalue="Application.FromStudy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FromStudy" />
         <item itemvalue="Application.JustStudy" />
         <item itemvalue="Application.SimpleStudy" />
         <item itemvalue="Application.Replay" />
         <item itemvalue="Application.Behaviou" />
-        <item itemvalue="Application.Publish2" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +375,7 @@
       <window_info id="Resources Explorer" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19432548" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19432548" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Captures" order="7" weight="0.25" />
       <window_info id="Image Layers" order="8" />
@@ -344,10 +383,10 @@
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="1" weight="0.32892057" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.4064449" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.03950104" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32892057" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32848233" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -372,7 +411,7 @@
       <window_info id="Resources Explorer" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19432548" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19432548" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Captures" order="7" weight="0.25" />
       <window_info id="Image Layers" order="8" />
@@ -380,10 +419,10 @@
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="1" weight="0.32892057" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.5893971" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.03950104" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32892057" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32848233" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -472,13 +511,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/subject/ReplaySubject.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/subject/Replay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/subject/Publish2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -518,24 +550,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/FromStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/JustDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/rxjava2/JustStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -553,6 +571,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bean/MyObservable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -560,10 +585,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/subject/Replay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+        <state relative-caret-position="529">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/rxjava2/JustStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/FromStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daolion/study/utils/FormatUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
